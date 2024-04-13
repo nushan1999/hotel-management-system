@@ -163,6 +163,8 @@ public class LoginView extends javax.swing.JFrame {
 
             if (userController.authenticate(username, password)) {
                 JOptionPane.showMessageDialog(LoginView.this, "Login Successful!");
+                new UserView().setVisible(true);
+                this.dispose();
             } else {
                 JOptionPane.showMessageDialog(LoginView.this, "Invalid Credentials", "Login Failed", JOptionPane.ERROR_MESSAGE);
             }

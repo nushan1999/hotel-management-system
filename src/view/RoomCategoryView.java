@@ -26,6 +26,7 @@ public class RoomCategoryView extends javax.swing.JFrame {
     public RoomCategoryView() {
         roomCategoryController = new RoomCategoryController();
         initComponents();
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         loadRoomCategories();
     }
 

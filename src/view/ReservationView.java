@@ -45,6 +45,7 @@ public class ReservationView extends javax.swing.JFrame {
         roomCategoryController = new RoomCategoryController();
         reservationController = new ReservationController();
         initComponents();
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         initializePackageTypeComboBox();
         loadReservations();
     }

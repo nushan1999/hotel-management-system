@@ -32,6 +32,7 @@ public class RoomView extends javax.swing.JFrame {
         roomController = new RoomController();
         roomCategoryController = new RoomCategoryController();
         initComponents();
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         initializeRoomStatusComboBox();
         loadRooms();
     }
