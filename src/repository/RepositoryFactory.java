@@ -8,6 +8,7 @@ import repository.impl.CustomerRepositoryImpl;
 import repository.impl.ReservationRepositoryImpl;
 import repository.impl.RoomCategoryRepositoryImpl;
 import repository.impl.RoomRepositoryImpl;
+import repository.impl.UserRepositoryImpl;
 
 /**
  *
@@ -37,12 +38,14 @@ public class RepositoryFactory {
                 return new RoomCategoryRepositoryImpl();
             case RESERVATION:
                 return new ReservationRepositoryImpl();
+            case USER:
+                return new UserRepositoryImpl();
             default:
                 return null;
         }
     }
 
     public enum RepositoryType {
-        CUSTOMER, ROOM, ROOMCATEGORY, RESERVATION
+        CUSTOMER, ROOM, ROOMCATEGORY, RESERVATION, USER
     }
 }

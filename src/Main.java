@@ -4,6 +4,7 @@
  */
 
 import view.CustomerView;
+import view.LoginView;
 import view.ReservationView;
 import view.RoomCategoryView;
 import view.RoomView;
@@ -15,9 +16,10 @@ import view.RoomView;
 public class Main {
 
     public static void main(String[] args) {
-        new CustomerView().setVisible(true);
-        new RoomCategoryView().setVisible(true);
-        new RoomView().setVisible(true);
-        new ReservationView().setVisible(true);
+          new LoginView().setVisible(true);
+//        new CustomerView().setVisible(true);
+//        new RoomCategoryView().setVisible(true);
+//        new RoomView().setVisible(true);
+//        new ReservationView().setVisible(true);
     }
 }

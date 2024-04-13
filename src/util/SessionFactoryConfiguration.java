@@ -8,6 +8,7 @@ import entity.CustomerEntity;
 import entity.ReservationEntity;
 import entity.RoomCategoryEntity;
 import entity.RoomEntity;
+import entity.UserEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -27,7 +28,8 @@ public class SessionFactoryConfiguration {
                 .addAnnotatedClass(CustomerEntity.class)
                 .addAnnotatedClass(RoomCategoryEntity.class)
                 .addAnnotatedClass(RoomEntity.class)
-                .addAnnotatedClass(ReservationEntity.class);
+                .addAnnotatedClass(ReservationEntity.class)
+                .addAnnotatedClass(UserEntity.class);
 
         sessionFactory = configuration.buildSessionFactory();
     }

@@ -8,6 +8,7 @@ import Service.custom.impl.CustomerServiceImpl;
 import Service.custom.impl.ReservationServiceImpl;
 import Service.custom.impl.RoomCategoryServiceImpl;
 import Service.custom.impl.RoomServiceImpl;
+import Service.custom.impl.UserServiceImpl;
 
 /**
  *
@@ -38,12 +39,14 @@ public class ServiceFactory {
                 return new RoomCategoryServiceImpl();
             case ROOM:
                 return new RoomServiceImpl();
+            case USER:
+                return new UserServiceImpl();
             default:
                 return null;
         }
     }
 
     public enum ServiceType {
-        CUSTOMER, RESERVATION, ROOMCATEGORY, ROOM
+        CUSTOMER, RESERVATION, ROOMCATEGORY, ROOM, USER
     }
 }
