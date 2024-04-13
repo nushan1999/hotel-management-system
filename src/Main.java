@@ -12,7 +12,7 @@ import view.RoomView;
 
 /**
  *
- * @author Nushan Vandabona
+ * @author Nushan Tharuka Vandabona
  */
 public class Main {
 
