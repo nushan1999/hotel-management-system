@@ -12,11 +12,11 @@ import Service.custom.UserService;
  * @author Nushan Vandabona
  */
 public class UserController {
-    
-     private UserService userService = (UserService) ServiceFactory.getInstance().getService(ServiceFactory.ServiceType.USER);
-     
-     public boolean authenticate(String username, String password ) throws Exception{
-         return userService.authenticate(username, password);
-     }
-    
+
+    private UserService userService = (UserService) ServiceFactory.getInstance().getService(ServiceFactory.ServiceType.USER);
+
+    public boolean authenticate(String username, String password) throws Exception {
+        return userService.authenticate(username, password);
+    }
+
 }

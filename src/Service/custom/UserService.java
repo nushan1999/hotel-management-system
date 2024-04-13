@@ -12,6 +12,6 @@ import Service.SuperService;
  */
 public interface UserService extends SuperService {
     
-    boolean authenticate(String username, String password );
+    boolean authenticate(String username, String password);
     
 }

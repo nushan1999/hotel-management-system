@@ -18,11 +18,11 @@ import org.hibernate.cfg.Configuration;
  * @author Nushan Vandabona
  */
 public class SessionFactoryConfiguration {
-
+    
     private static SessionFactoryConfiguration sessionFactoryConfiguration;
-
+    
     private SessionFactory sessionFactory;
-
+    
     private SessionFactoryConfiguration() {
         Configuration configuration = new Configuration().configure()
                 .addAnnotatedClass(CustomerEntity.class)
@@ -30,17 +30,17 @@ public class SessionFactoryConfiguration {
                 .addAnnotatedClass(RoomEntity.class)
                 .addAnnotatedClass(ReservationEntity.class)
                 .addAnnotatedClass(UserEntity.class);
-
+        
         sessionFactory = configuration.buildSessionFactory();
     }
-
+    
     public static SessionFactoryConfiguration getInstance() {
         if (sessionFactoryConfiguration == null) {
             sessionFactoryConfiguration = new SessionFactoryConfiguration();
         }
         return sessionFactoryConfiguration;
     }
-
+    
     public Session getSession() {
         return sessionFactory.openSession();
     }

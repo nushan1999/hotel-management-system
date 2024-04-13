@@ -20,17 +20,17 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CustomerDto {
-    
+
     private Integer customerId;
 
     private String customerName;
-    
+
     private String email;
-    
+
     private String phoneNumber;
-    
+
     private String address;
-    
+
     public CustomerDto(String customerName, String email, String phoneNumber, String address) {
         this.customerName = customerName;
         this.email = email;

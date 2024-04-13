@@ -28,16 +28,16 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class UserEntity {
-    
+
     @Id
-    @Column(name="user_id")
+    @Column(name = "user_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
-    
-    @Column(name="username", unique = true, nullable = false)
+
+    @Column(name = "username", unique = true, nullable = false)
     private String username;
-    
-    @Column(name="password", nullable = false)
+
+    @Column(name = "password", nullable = false)
     private String password;
-    
+
 }
