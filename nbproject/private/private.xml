@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/entity/ReservationEntity.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/custom/RoomRepository.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/impl/RoomCategoryServiceImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/controller/ReservationController.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/RepositoryFactory.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/custom/ReservationRepository.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/dto/RoomDto.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/dto/RoomCategoryDto.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/view/RoomView.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/impl/ReservationServiceImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/view/ReservationView.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/dto/CustomerDto.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/CustomerService.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/entity/RoomEntity.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/ServiceFactory.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/view/RoomCategoryView.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Main.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/impl/CustomerServiceImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/entity/RoomCategoryEntity.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/SuperService.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/ReservationService.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/view/CustomerView.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/impl/RoomServiceImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/SuperRepository.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/entity/CustomerEntity.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/custom/RoomCategoryRepository.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/impl/ReservationRepositoryImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/dto/ReservationDto.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/impl/RoomRepositoryImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/impl/CustomerRepositoryImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/RoomService.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/controller/RoomCategoryController.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/util/SessionFactoryConfiguration.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/impl/RoomCategoryRepositoryImpl.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/Service/custom/RoomCategoryService.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/controller/CustomerController.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/hibernate.cfg.xml</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/repository/custom/CustomerRepository.java</file>
+            <file>file:/D:/IJSE/Courseworks/2/hotel-management-system/src/controller/RoomController.java</file>
+        </group>
+    </open-files>
+</project-private>
