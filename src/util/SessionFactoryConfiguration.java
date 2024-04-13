@@ -28,7 +28,7 @@ public class SessionFactoryConfiguration {
                 .addAnnotatedClass(RoomCategoryEntity.class)
                 .addAnnotatedClass(RoomEntity.class)
                 .addAnnotatedClass(ReservationEntity.class);
-            
+
         sessionFactory = configuration.buildSessionFactory();
     }
 

@@ -15,7 +15,6 @@ import java.util.logging.Logger;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import view.RoomCategoryView;
 
 /**
  *
@@ -369,7 +368,7 @@ public class RoomView extends javax.swing.JFrame {
             String roomNumber = txtRoomNumber.getText();
             RoomEntity.RoomStatus roomStatus = RoomEntity.RoomStatus.valueOf(cmbRoomStatus.getSelectedItem().toString());
             Integer categoryId = Integer.parseInt(txtCategoryId.getText());
-            
+
             RoomDto roomDto = new RoomDto(roomId, roomNumber, roomStatus, categoryId);
             String resp = roomController.updateRoom(roomDto);
             JOptionPane.showMessageDialog(this, resp);

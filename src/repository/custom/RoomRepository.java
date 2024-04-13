@@ -25,6 +25,6 @@ public interface RoomRepository extends SuperRepository {
     void deleteRoom(RoomEntity roomEntity, Session session) throws Exception;
 
     List<RoomEntity> getAllRooms(Session session) throws Exception;
-    
-    boolean isRoomAvailable (Integer roomId,Date checkInDate, Date checkOutDate, Session session);
+
+    boolean isRoomAvailable(Integer roomId, Date checkInDate, Date checkOutDate, Session session);
 }

@@ -5,7 +5,6 @@
 package repository.custom;
 
 import entity.ReservationEntity;
-import entity.RoomEntity;
 import java.util.List;
 import org.hibernate.Session;
 import repository.SuperRepository;
@@ -21,7 +20,7 @@ public interface ReservationRepository extends SuperRepository {
     List<ReservationEntity> getAllReservations(Session session) throws Exception;
 
     ReservationEntity getReservation(Integer reservationId, Session session) throws Exception;
-    
+
     void deleteReservation(ReservationEntity reservationEntity, Session session) throws Exception;
 
 }

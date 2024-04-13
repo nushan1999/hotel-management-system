@@ -6,7 +6,6 @@ package entity;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -37,30 +36,30 @@ import lombok.ToString;
 @Setter
 @ToString
 public class RoomEntity {
-    
+
     @Id
     @Column(name = "room_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer roomId;
-    
+
     @Column(name = "room_number", nullable = false, length = 100, unique = true)
     private String roomNumber;
-    
+
     @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable = false)
     private RoomStatus status;
-    
+
     @ManyToOne
     @JoinColumn(name = "category_id", nullable = false)
     private RoomCategoryEntity category;
-    
+
     @OneToMany(mappedBy = "room", targetEntity = ReservationEntity.class)
     @Transient
     private List<ReservationEntity> reservationEntities = new ArrayList<>();
-    
+
     //Enum for Room Status
-    public enum RoomStatus{
+    public enum RoomStatus {
         AVAILABLE, MAINTENANCE, UNAVAILABLE
     }
-    
+
 }

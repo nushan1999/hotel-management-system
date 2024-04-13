@@ -23,13 +23,13 @@ import lombok.ToString;
 public class RoomDto {
 
     private Integer roomId;
-    
+
     private String roomNumber;
 
     private RoomStatus status;
 
     private Integer categoryId;
-    
+
     public RoomDto(String roomNumber, RoomStatus status, Integer categoryId) {
         this.roomNumber = roomNumber;
         this.status = status;

@@ -5,7 +5,6 @@
 package Service.custom;
 
 import Service.SuperService;
-import dto.RoomCategoryDto;
 import dto.RoomDto;
 import java.util.List;
 
@@ -16,7 +15,7 @@ import java.util.List;
 public interface RoomService extends SuperService {
 
     String saveRoom(RoomDto roomDto) throws Exception;
-    
+
     String updateRoom(RoomDto roomDto) throws Exception;
 
     String deleteRoom(Integer roomId) throws Exception;

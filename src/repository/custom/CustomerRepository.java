@@ -22,6 +22,6 @@ public interface CustomerRepository extends SuperRepository {
     void updateCustomer(CustomerEntity customerEntity, Session session) throws Exception;
 
     void deleteCustomer(CustomerEntity customerEntity, Session session) throws Exception;
-    
+
     List<CustomerEntity> getAllCustomers(Session session) throws Exception;
 }

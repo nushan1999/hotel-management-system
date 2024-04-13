@@ -9,5 +9,5 @@ package repository;
  * @author Nushan Vandabona
  */
 public interface SuperRepository {
-    
+
 }

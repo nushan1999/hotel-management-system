@@ -37,10 +37,10 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     public void deleteCustomer(CustomerEntity customerEntity, Session session) throws Exception {
         session.delete(customerEntity);
     }
-    
+
     @Override
     public List<CustomerEntity> getAllCustomers(Session session) throws Exception {
-        String hql ="FROM CustomerEntity";
+        String hql = "FROM CustomerEntity";
         Query<CustomerEntity> query = session.createQuery(hql);
         List<CustomerEntity> customerEntities = query.list();
         return customerEntities;

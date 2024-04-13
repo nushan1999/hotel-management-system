@@ -14,6 +14,7 @@ import repository.impl.RoomRepositoryImpl;
  * @author Nushan Vandabona
  */
 public class RepositoryFactory {
+
     private static RepositoryFactory repositoryFactory;
 
     private RepositoryFactory() {
@@ -25,23 +26,23 @@ public class RepositoryFactory {
         }
         return repositoryFactory;
     }
-    
-    public SuperRepository getRepository(RepositoryType repositoryType){
+
+    public SuperRepository getRepository(RepositoryType repositoryType) {
         switch (repositoryType) {
             case CUSTOMER:
                 return new CustomerRepositoryImpl();
             case ROOM:
                 return new RoomRepositoryImpl();
             case ROOMCATEGORY:
-                return  new RoomCategoryRepositoryImpl();
+                return new RoomCategoryRepositoryImpl();
             case RESERVATION:
-                return  new ReservationRepositoryImpl();
+                return new ReservationRepositoryImpl();
             default:
                 return null;
         }
     }
-    
-    public enum RepositoryType{
+
+    public enum RepositoryType {
         CUSTOMER, ROOM, ROOMCATEGORY, RESERVATION
     }
 }

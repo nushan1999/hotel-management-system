@@ -10,7 +10,6 @@ import org.hibernate.Session;
 import org.hibernate.query.Query;
 import repository.custom.RoomCategoryRepository;
 
-
 /**
  *
  * @author Nushan Vandabona
@@ -41,7 +40,7 @@ public class RoomCategoryRepositoryImpl implements RoomCategoryRepository {
 
     @Override
     public List<RoomCategoryEntity> getAllRoomCategories(Session session) throws Exception {
-        String hql ="FROM RoomCategoryEntity";
+        String hql = "FROM RoomCategoryEntity";
         Query<RoomCategoryEntity> query = session.createQuery(hql);
         List<RoomCategoryEntity> roomCategoryEntities = query.list();
         return roomCategoryEntities;

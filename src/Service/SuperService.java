@@ -9,5 +9,5 @@ package Service;
  * @author Nushan Vandabona
  */
 public interface SuperService {
-    
+
 }

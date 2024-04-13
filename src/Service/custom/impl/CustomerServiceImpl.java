@@ -7,14 +7,12 @@ package Service.custom.impl;
 import Service.custom.CustomerService;
 import dto.CustomerDto;
 import entity.CustomerEntity;
-import entity.ReservationEntity;
 import java.util.ArrayList;
 import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import repository.RepositoryFactory;
 import repository.custom.CustomerRepository;
-import repository.custom.ReservationRepository;
 import util.SessionFactoryConfiguration;
 
 /**

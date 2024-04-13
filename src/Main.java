@@ -3,8 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-import org.hibernate.Session;
-import util.SessionFactoryConfiguration;
 import view.CustomerView;
 import view.ReservationView;
 import view.RoomCategoryView;

@@ -23,5 +23,5 @@ public interface CustomerService extends SuperService {
     CustomerDto getCustomer(Integer customerId) throws Exception;
 
     List<CustomerDto> getAll() throws Exception;
-  
+
 }

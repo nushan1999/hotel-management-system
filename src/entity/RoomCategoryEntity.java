@@ -6,7 +6,6 @@ package entity;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -47,9 +46,9 @@ public class RoomCategoryEntity {
 
     @Column(name = "base_price", nullable = false)
     private Double basePrice;
-    
+
     @OneToMany(mappedBy = "category", targetEntity = RoomEntity.class)
     @Transient
     private List<RoomEntity> roomEntities = new ArrayList<>();
-    
+
 }

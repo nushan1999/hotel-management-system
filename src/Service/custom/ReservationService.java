@@ -6,7 +6,6 @@ package Service.custom;
 
 import Service.SuperService;
 import dto.ReservationDto;
-import dto.RoomDto;
 import java.util.List;
 
 /**
@@ -20,7 +19,7 @@ public interface ReservationService extends SuperService {
     List<ReservationDto> getAll() throws Exception;
 
     ReservationDto getReservation(Integer reservationId) throws Exception;
-    
-    String deleteReservation(Integer reservationId) throws Exception; 
+
+    String deleteReservation(Integer reservationId) throws Exception;
 
 }

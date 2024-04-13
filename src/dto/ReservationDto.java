@@ -29,7 +29,7 @@ public class ReservationDto {
     private Date checkInDate;
 
     private Date checkOutDate;
-    
+
     private Date placedAt;
 
     private Double totalPrice;
@@ -52,7 +52,7 @@ public class ReservationDto {
         this.packageType = packageType;
         this.status = status;
     }
-    
+
     public ReservationDto(Date checkInDate, Date checkOutDate, Date placedAt, Integer customerId, Integer roomId, PackageType packageType) {
         this.checkInDate = checkInDate;
         this.checkOutDate = checkOutDate;

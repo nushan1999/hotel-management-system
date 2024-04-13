@@ -14,25 +14,25 @@ import java.util.List;
  * @author Nushan Vandabona
  */
 public class RoomController {
-    
+
     private RoomService roomService = (RoomService) ServiceFactory.getInstance().getService(ServiceFactory.ServiceType.ROOM);
 
     public String saveRoom(RoomDto roomDto) throws Exception {
         return roomService.saveRoom(roomDto);
     }
-    
+
     public String updateRoom(RoomDto roomDto) throws Exception {
         return roomService.updateRoom(roomDto);
     }
-    
+
     public String deleteRoom(Integer roomId) throws Exception {
         return roomService.deleteRoom(roomId);
     }
-    
+
     public RoomDto getRoom(Integer roomId) throws Exception {
         return roomService.getRoom(roomId);
     }
-    
+
     public List<RoomDto> getAll() throws Exception {
         return roomService.getAll();
     }
